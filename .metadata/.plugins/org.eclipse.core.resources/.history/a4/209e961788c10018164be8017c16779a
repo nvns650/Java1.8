@@ -1,0 +1,9 @@
+package com.sameMethodsInDiffInterface;
+
+public class Test implements One, Two {
+
+	
+	public static void main(String[] args) {
+		
+	}
+}

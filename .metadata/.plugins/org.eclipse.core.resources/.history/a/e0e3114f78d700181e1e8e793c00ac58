@@ -1,0 +1,25 @@
+package com.bo;
+
+public class Shipment {
+private String shipmentId;
+private String shipmentType;
+private Address address;
+public String getShipmentId() {
+	return shipmentId;
+}
+public void setShipmentId(String shipmentId) {
+	this.shipmentId = shipmentId;
+}
+public String getShipmentType() {
+	return shipmentType;
+}
+public void setShipmentType(String shipmentType) {
+	this.shipmentType = shipmentType;
+}
+public Address getAddress() {
+	return address;
+}
+public void setAddress(Address address) {
+	this.address = address;
+}
+}

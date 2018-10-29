@@ -1,0 +1,15 @@
+package com.primitiveStreams;
+
+public class PrimeNumberCheck {
+
+	public static void main(String[] args) {
+		checkPrime(10);
+
+	}
+
+	private static void checkPrime(int i) {
+		
+		
+	}
+
+}

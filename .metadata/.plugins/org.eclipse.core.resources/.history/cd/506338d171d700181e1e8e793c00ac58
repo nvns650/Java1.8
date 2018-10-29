@@ -1,0 +1,36 @@
+package com.multipleObjects;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+import com.ArrayList.ArrayList;
+
+public class TestFlatMap {
+
+	public static void main(String[] args) {
+		Developer developer1= new Developer("Kiran");
+		Set<String> tech1 =new HashSet<>();
+		tech1.add("Java");
+		tech1.add("Spring");
+		developer1.setLanguages(tech1);
+		
+		Developer developer2= new Developer("Harish");
+		Set<String> tech2 =new HashSet<>();
+		tech2.add("Java");
+		tech2.add("Hibernate");
+		developer2.setLanguages(tech2);
+		
+		List<Developer> devs = new java.util.ArrayList<>();
+		devs.add(developer1);
+		devs.add(developer2);
+		//All languages
+		devs.stream().map( x -> x.getLanguages()).flatMap( x -> x.stream()).collect(Collectors.toList()).forEach(s ->System.out.println(s));
+		// first language
+		System.out.println(devs.stream().map( x -> x.getLanguages()).flatMap( x -> x.stream()).findFirst().get());
+		//persons with languages
+		devs.stream().forEach(s -> System.out.println(s));
+	}
+
+}

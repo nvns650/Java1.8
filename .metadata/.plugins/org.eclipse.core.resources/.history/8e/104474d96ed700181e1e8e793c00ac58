@@ -1,0 +1,30 @@
+package com.multipleObjects;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Developer {
+private String name;
+private Set<Languages> languages;
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public Set<Languages> getLanguages() {
+	return languages;
+}
+public void setLanguages(Set<Languages> languages) {
+	this.languages = languages;
+}
+public Developer(String name) {
+	super();
+	this.name = name;
+	this.languages = new HashSet<>();
+}
+public Developer() {
+	super();
+}
+}

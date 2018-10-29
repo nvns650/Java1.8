@@ -1,0 +1,18 @@
+package com.primitiveStreams;
+
+import java.util.stream.IntStream;
+
+public class PrimeNumberCheck {
+
+	public static void main(String[] args) {
+		checkPrime(10);
+
+	}
+
+	private static void checkPrime(int num) {
+		System.out.println(IntStream.range(2, num/2).anyMatch(i -> i%2==0));
+		
+		
+	}
+
+}

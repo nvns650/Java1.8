@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LengthOfString.java&apos; to &apos;NeedofPrimitive/src/com.normal&apos;&#x0D;&#x0A;- Original project: &apos;PredicateExamples&apos;&#x0D;&#x0A;- Destination element: &apos;NeedofPrimitive/src/com.normal&apos;&#x0D;&#x0A;- Original element: &apos;predicateEx.LengthOfString.java&apos;" description="Copy compilation unit" destination="=NeedofPrimitive/src&lt;com.normal" element1="/src&lt;predicateEx{LengthOfString.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1538735820785" units="1" version="1.0"/>
+</session>

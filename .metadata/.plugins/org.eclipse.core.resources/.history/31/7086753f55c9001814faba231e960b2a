@@ -1,0 +1,29 @@
+package com.ArrayList;
+
+import java.util.ArrayList;
+
+public class ArrayListEx {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(1);
+		al.add(2);
+		al.add(3);
+		al.add(4);
+		al.add(5);
+		al.add(6);
+		al.add(7);
+		System.out.println(al);
+		ArrayList<Integer> alCopy = new ArrayList<Integer>();
+		/*normal*/
+		for (Integer number : al) {
+			if (number % 2 == 0) {
+				alCopy.add(number);
+			}
+		}
+		System.out.println(alCopy);
+		/*Streams and filter*/
+		al.stream().forEach(s -> System.out.print("\t"+s));
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.primitiveStreams;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class StreamBuilderEx {
+	 public static void main(String[] args) {
+		    Stream<String> stream  = Stream.<String>builder()
+		        .add("XML")
+		        .add("Java")
+		        .add("CSS")
+		        .add("SQL")
+		        .build();
+		    stream.forEach(System.out::println);
+		    
+		    IntStream.rangeClosed(1, 10).forEach(s -> System.out.println(s));
+		  }
+	 
+	 
+}

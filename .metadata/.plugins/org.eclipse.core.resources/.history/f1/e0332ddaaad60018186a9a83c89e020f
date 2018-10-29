@@ -1,0 +1,13 @@
+package com.primitiveStreams;
+
+import java.util.regex.Pattern;
+
+public class StringSplitExample {
+
+	public static void main(String[] args) {
+		String str=  "abc,4dh,7jjj";
+		Pattern.compile(",").splitAsStream(str).forEach(s -> System.out.println(s));
+
+	}
+
+}

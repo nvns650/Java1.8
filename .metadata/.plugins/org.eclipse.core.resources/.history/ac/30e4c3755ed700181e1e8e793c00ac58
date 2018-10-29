@@ -1,0 +1,16 @@
+package com.orderCheck;
+
+import java.util.List;
+
+public class OrderBO {
+private List<Shipments> shipments;
+
+public List<Shipments> getShipments() {
+	return shipments;
+}
+
+public void setShipments(List<Shipments> shipments) {
+	this.shipments = shipments;
+}
+
+}

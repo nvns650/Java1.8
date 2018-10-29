@@ -1,0 +1,6 @@
+package com.files;
+
+public class Snippet {
+	public static void main(String[] args) throws IOException {
+}
+

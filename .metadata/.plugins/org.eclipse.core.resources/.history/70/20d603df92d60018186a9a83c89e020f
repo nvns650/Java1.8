@@ -1,0 +1,13 @@
+package com.primitiveStreams;
+
+import java.util.stream.IntStream;
+
+public class IntStreamEx {
+
+	public static void main(String[] args) {
+		int[] numbers= new int[] {1,2,3,4,5};
+		int min=IntStream.of(numbers).sum();
+		System.out.println(min);
+	}
+
+}

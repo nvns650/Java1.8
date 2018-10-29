@@ -1,0 +1,11 @@
+package com.primitiveStreams;
+
+public class StreamIterator {
+
+	public static void main(String[] args) {
+		Stream<Long> str= Stream.
+		System.out.println(Stream.
+
+	}
+
+}

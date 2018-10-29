@@ -1,0 +1,18 @@
+package predicateEx;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.function.Predicate;
+
+public class isEmptyEx {
+
+	public static void main(String[] args) {
+		ArrayList<String> list= new ArrayList<String>();
+		list.add("A");
+		list.add("B");
+		Predicate<Collection> check = s -> s.isEmpty();
+		System.out.println(check.test(list));
+
+	}
+
+}

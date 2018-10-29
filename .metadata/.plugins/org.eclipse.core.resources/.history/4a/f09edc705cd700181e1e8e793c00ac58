@@ -1,0 +1,28 @@
+package com.orderCheck;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class BO {
+
+	public static void main(String[] args) {
+	OrderBO orderBO =new OrderBO();
+	
+	List<Items> forItems = new ArrayList<Items>();
+	Items i1= new Items(101, 1, "Shoe");
+	Items i2= new Items(102, 2, "shirt");
+	Items i3= new Items(103, 3, "pant");
+	forItems.add(i1); forItems.add(i2); forItems.add(i3);
+	
+	List<Shipments> forShipments = new ArrayList<Shipments>();
+	@SuppressWarnings("unchecked")
+	Shipments s1=new Shipments(501, "M",forItems);
+	
+	orderBO.setShipments(forShipments);
+	
+	List<Shipments> bo= orderBO.getShipments().stream().collect(Collectors.toList());
+	System.out.println(bo);
+	}
+
+}

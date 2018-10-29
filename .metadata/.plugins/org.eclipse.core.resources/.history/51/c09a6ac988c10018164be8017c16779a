@@ -1,0 +1,7 @@
+package com.sameMethodsInDiffInterface;
+
+public interface One {
+public static void m1() {
+	System.out.println("one");
+}
+}

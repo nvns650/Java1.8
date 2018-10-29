@@ -1,0 +1,5 @@
+package com.sameMethodsInDiffInterface;
+
+public interface One {
+default void m1()
+}

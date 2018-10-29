@@ -1,0 +1,20 @@
+package com.primitiveStreams;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class StreamIteratorEx {
+
+	public static void main(String[] args) {
+		Stream<Long> str= Stream.iterate(1L, n -> n+1).limit(10);
+		str.forEach(s -> System.out.println(s));
+
+		
+		IntStream str2= Stream.iterate(1L, n -> n+1).filter(StreamIteratorEx::check).limit(10);
+	}
+	public static boolean check()
+	{
+		
+		
+	}
+}

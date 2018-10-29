@@ -1,0 +1,15 @@
+package empManagement;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+	ArrayList<Employees> list= new ArrayList<Employees>();
+	list.add(new Employees("Naveen", "Developer", 78000, "Hyd"));
+	list.add(new Employees("harish", "IPS", 98900, "WGL"));
+	list.add(new Employees("kiran", "Developer", 89000, "Gachhibowli"));
+	System.out.println(list);
+	}
+
+}

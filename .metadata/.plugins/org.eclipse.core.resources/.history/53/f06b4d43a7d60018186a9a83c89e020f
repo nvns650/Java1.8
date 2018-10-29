@@ -1,0 +1,13 @@
+package com.primitiveStreams;
+
+import java.util.stream.Stream;
+
+public class StreamIteratorEx {
+
+	public static void main(String[] args) {
+		Stream<Long> str= Stream.iterate(1L, n -> n+10).limit(10).skip(5);
+		str.forEach(s -> System.out.println(s));
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.multipleObjects;
+
+public class TestFlatMap {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

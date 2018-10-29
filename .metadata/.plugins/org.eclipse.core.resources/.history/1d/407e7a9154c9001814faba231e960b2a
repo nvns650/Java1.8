@@ -1,0 +1,10 @@
+package com.ArrayList;
+
+public class ArrayListEx {
+
+	public static void main(String[] args) {
+		ArrayListEx<Integer> al=new ArrayLst<Integer>();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.nisum.basicExamples;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class WithoutOptional {
+	 public static void main(String[] args) {   
+		 List<String> list= new ArrayList<>();
+		 list.add("F");
+		 list.remove(list);
+	       /* String[] words = new String[10];   
+	        String word = words[5].toLowerCase();   
+	        System.out.print(word);   */
+	        System.out.println(list);
+	    } 
+}

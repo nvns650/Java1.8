@@ -1,0 +1,8 @@
+package com.multipleObjects;
+
+import java.util.List;
+
+public class Developer {
+private String name;
+private List<Languages> languages;
+}

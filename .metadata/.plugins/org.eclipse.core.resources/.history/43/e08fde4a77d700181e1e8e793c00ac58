@@ -1,0 +1,28 @@
+package com.bo;
+
+import java.util.List;
+
+public class OrderBO {
+	private Shipment shipment;
+	private List<Item> items ;
+	private Address address;
+	public Shipment getShipment() {
+		return shipment;
+	}
+	public void setShipment(Shipment shipment) {
+		this.shipment = shipment;
+	}
+	public List<Item> getItems() {
+		return items;
+	}
+	public void setItems(List<Item> items) {
+		this.items = items;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+}
