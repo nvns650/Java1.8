@@ -15,4 +15,5 @@ public class ArrayList {
 		check.collect(Collectors.toList()).forEach(s -> System.out.println(s));
 	}
 
+
 }
