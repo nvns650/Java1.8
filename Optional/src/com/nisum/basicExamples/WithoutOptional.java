@@ -1,4 +1,4 @@
-package com.nisum.basicExamples;
+package com.test.basicExamples;
 
 import java.util.ArrayList;
 
